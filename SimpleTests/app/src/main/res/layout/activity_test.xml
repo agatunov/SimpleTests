@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.TestActivity"
+    android:background="@drawable/main_activity_gradient">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Question Place Holder"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/questionTitleTV">
+    </TextView>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/questionTitleTV"
+        android:id="@+id/space"></Space>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/space"
+        android:background="@drawable/button_main_activity"
+        android:id="@+id/answer1Button"
+        android:text="answerPlaceHolder"
+        android:onClick="answer1ButtonOnClick"
+        ></Button>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answer1Button"
+        android:background="@drawable/button_main_activity"
+        android:text="answerPlaceHolder"
+        android:id="@+id/answer2Button"
+        android:onClick="answer2ButtonOnClick"
+        ></Button>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answer2Button"
+        android:background="@drawable/button_main_activity"
+        android:text="answerPlaceHolder"
+        android:id="@+id/answer3Button"
+        android:onClick="answer3ButtonOnClick"
+        ></Button>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answer3Button"
+        android:background="@drawable/button_main_activity"
+        android:text="answerPlaceHolder"
+        android:id="@+id/answer4Button"
+        android:onClick="answer4ButtonOnClick"
+        ></Button>
+</RelativeLayout>
